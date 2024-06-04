@@ -1,0 +1,31 @@
+Welcome to ECE244!
+
+some fundementals: 
+- <iostream>: input/output library for cpp
+- namespace: the container for names which allows for the code to flow without conflict from other var in different files
+- namespace std: allows for us to not have to write std in statements
+- main: the entry point of the program.
+- cout is the console output while, cin is the console input. 
+- the "<<" is called the stream insertion operators, we use << for cout and >> for cin. 
+- endl indicates the end of lin. 
+
+data types: 
+- int, char, string, double, float and auto (implemented if one intends on changing multiple vars at once)(using auto w/o delcaring a var will result in compiler error)
+--> auto length = 6;
+--> auto max = length; //compiler will look at length and registers max as int.
+
+- compiler takes source code, converting it to object code that the machine understands
+- linker organizes object code into executable files: 
+
+                                (.cpp/.cxx)           (.o)        (.exe)    
+                                source       --->   compiler ---> linker
+                                                (Process)
+
+Types of errors (from highest to lowest level):
+high    ^ logical error: executable producing undesirable output.
+        |
+        | run-time error: errors that arise at execution.
+        |
+        | semantic error: undefined code.
+        |
+low     | syntax error: improper syntax.# ece244
