@@ -29,3 +29,11 @@ high    ^ logical error: executable producing undesirable output.
         | semantic error: undefined code.
         |
 low     | syntax error: improper syntax.# ece244
+
+
+to compile multiple files at the same time, we can do: 
+
+(GNU C++ Compiler)      (File Name)   (-o tag)      (executable file)
+        g++             myProgram.c   -o             myProgram.exe
+
+the -o tag helps us name the output of the source code. 
