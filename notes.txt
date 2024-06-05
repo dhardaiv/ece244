@@ -1,5 +1,5 @@
-Welcome to ECE244!
-
+                                                                    Welcome to ECE244!
+2022-06-04
 some fundementals: 
 - <iostream>: input/output library for cpp
 - namespace: the container for names which allows for the code to flow without conflict from other var in different files
