@@ -46,3 +46,8 @@ Classes and Objects:
 -->     int month;                      are objects of class date
 -->     int day;                    
 -->}
+- an object is an instantiated var of a class type, the following line: 
+-->                 Date christmas; 
+- creates an object of the type date called Christmas
+- we may use the dot operator to access members: 
+--> christmas.month = 12; //this is an instance of the dot operator in use. 
