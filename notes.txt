@@ -39,3 +39,10 @@ to compile multiple files at the same time, we can do:
 the -o tag helps us name the output of the source code. 
 
 Classes and Objects: 
+- classes are similar to strycts in C
+- these classes have avars and function members.
+--> class Date {
+-->     int year;                       In this code snippet, year, month and day 
+-->     int month;                      are objects of class date
+-->     int day;                    
+-->}
