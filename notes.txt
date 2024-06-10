@@ -51,3 +51,7 @@ Classes and Objects:
 - creates an object of the type date called Christmas
 - we may use the dot operator to access members: 
 --> christmas.month = 12; //this is an instance of the dot operator in use. 
+
+- encapsulation prevents unintentional alterations to class members. 
+- As a result of encapsulation, we declare all class members as private
+--> this means that these members are not visible to other classes
