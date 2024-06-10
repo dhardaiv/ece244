@@ -61,3 +61,5 @@ Classes and Objects:
         1. if another class tries to access a member of a private class, there will be a compilation error. 
         2. All classes are private by default.
         3. A member function can access all variables of its class, regardless if private/public
+- We can also initialize objects through constructors & default memeber initializers.
+--> by definition, ac constructor is a function made by the programmer that is automatically invoked upon the creation of an object
