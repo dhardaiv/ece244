@@ -54,4 +54,10 @@ Classes and Objects:
 
 - encapsulation prevents unintentional alterations to class members. 
 - As a result of encapsulation, we declare all class members as private
---> this means that these members are not visible to other classes
+--> this means that these members are not visible to other classes.
+
+
+- The following are important details of classes in C++:
+        1. if another class tries to access a member of a private class, there will be a compilation error. 
+        2. All classes are private by default.
+        3. A member function can access all variables of its class, regardless if private/public
