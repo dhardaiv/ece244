@@ -69,4 +69,4 @@ Classes and Objects:
         1. every class mush ahve a constructor.
         2. a class can have multiple constructors. 
         3. if no constructors are specificed, C++ provides the default constructor (no argument)
-                --> does not initizialize member variables properly (pointers will be filled with garbage)
+                --> does not initizialize member variables properly (pointers will be filled with garbage).
